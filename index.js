@@ -30,3 +30,8 @@ function prependKitten(name){
   var updateFirstKitten = [name, ...kittens];
   return updateFirstKitten;
 }
+
+function removeLastKitten(){
+  var updateRemoveLast = [kittens.slice(3)];
+  return updateRemoveLast;
+}
